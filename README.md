@@ -1,6 +1,6 @@
 # **📰 News Data Analytics Platform (Microsoft Fabric)** 
 
-### 📌 Overview
+### Overview
 
 This project implements an end-to-end news data analytics platform that
 ingests real-time news data from a REST API, processes it using
@@ -11,7 +11,7 @@ The platform is designed to support incremental data processing,
 scalable transformations, and real-time sentiment monitoring of U.S.
 news articles.
 
-### 🎯 Use Case
+### Use Case
 
 -   Track the top 100 news articles in the U.S. from the last 24 hours
 
@@ -21,7 +21,7 @@ news articles.
 
 -   Provide an analytics-ready semantic model for reporting
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 -   Microsoft Fabric
 
@@ -49,12 +49,12 @@ news articles.
 
 -   Microsoft Teams Alerts
 
-### 🏗️ Architecture 
+### Architecture 
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/91d07cae-34c6-41c0-b5f0-6167ba626345" />
 
 
-### 🔄 Data Pipeline Flow 
+### Data Pipeline Flow 
 
 1.   **News Data Ingestion**
 
@@ -115,7 +115,7 @@ Notebook: news_sentiment_analysis.ipynb
 
     -   Target table: tbl_sentiment_analysis
 
-### 📊 Reporting & Analytics (Power BI)
+### Reporting & Analytics (Power BI)
 
 -   Created semantic model on tbl_sentiment_analysis
 
@@ -135,7 +135,7 @@ Notebook: news_sentiment_analysis.ipynb
 
 -   Applied filters to show top 2 latest news articles by publish date
 
-### 🔔 Alerts & Automation
+### Alerts & Automation
 
 -   Configured Teams alerts
 
@@ -145,7 +145,7 @@ Notebook: news_sentiment_analysis.ipynb
 
 -   Enables near real-time awareness of favorable news trends
 
-### 🚧 Challenges & Solutions 
+### Challenges & Solutions 
 
 | Challenge                   | Solution                                    |
 |-----------------------------|---------------------------------------------|
@@ -154,7 +154,7 @@ Notebook: news_sentiment_analysis.ipynb
 | Schema mismatch during load | Controlled Type 1 merge strategy            |
 | Incremental processing      | Merge-based upserts instead of full reloads |
 
-### 🚀 Future Enhancements
+### Future Enhancements
 
 -   Topic-based sentiment comparison
 
