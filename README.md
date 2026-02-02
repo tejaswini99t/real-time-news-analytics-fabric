@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # **📰 News Data Analytics Platform (Microsoft Fabric)** 
 
 ### 📌 Overview
@@ -57,7 +51,8 @@ news articles.
 
 ### 🏗️ Architecture 
 
-![](Downloads/ChatGPT Image Feb 2, 2026, 12_46_38 PM.png){width="668"}
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/91d07cae-34c6-41c0-b5f0-6167ba626345" />
+
 
 ### 🔄 Data Pipeline Flow 
 
